@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="searchbar">
+        <input id="search" type="text" placeholder="Search" />
+      </div>
+    </div>
+
+    <div>
+      <span class="heading">WELCOME TO THE FUTURE</span>
+    </div>
+
+    <div class="desc">
+      Hi, I hope you are doing well! I am interested in applying for internship
+      at your company. I have experience in using HTML/CSS, JavaScript, ReactJs,
+      NodeJs. Please consider my resume for interview opportunity.
+    </div>
+
+    <div>
+      <input type="text" id="userInput" placeholder="Enter text here" />
+      <button onclick="processInput()">Submit</button>
+    </div>
+    <div id="output"></div>
+
+    <script>
+      function processInput() {
+        let input = document.getElementById("userInput").value;
+        let result = "";
+
+        for (let i = 0; i < input.length; i++) {
+          // Skip every 3rd character
+          if ((i + 1) % 3 !== 0) {
+            result += input[i];
+          }
+        }
+
+        document.getElementById("output").innerText = "Result: " + result;
+      }
+    </script>
+  </body>
+</html>

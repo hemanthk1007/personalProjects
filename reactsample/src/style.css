@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Notable&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Notable&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+html{
+    
+    height: 100%;
+    width: 100%;
+    margin-bottom: 200px;
+
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 80px;
+    position: sticky;
+    padding: 0 20px;
+    font-family: "Anton" ,sans-serif;
+    font-size: xx-large;
+    background-color:azure;
+}
+
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Notable", sans-serif;
+    font-weight: 600;
+    font-size: 150px;
+    background-color:bisque;
+    padding: 120px 20px;
+}
+
+.desc{
+    display: flex;
+    background-color:lightslategray;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-size: 30px; 
+    color:ivory;   
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.signup{
+
+  margin: 30px;
+  font-family:  serif;
+  font-optical-sizing: auto;
+  font-weight: 300px;
+  font-size:x-large;
+
+}
+
+
+.searchbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#search{
+    display: flex;
+    justify-content:flex-end ;
+    border: 3px solid darkslategray;
+    border-radius: 20px;
+    padding: 7px;
+    width: 250px;
+}
+ 
+ #search:hover{
+    transition: 0.8s;
+    box-shadow: 4px 4px;
+    cursor: pointer;
+} 
+
+#search:focus{
+    border: 3px solid darkslategray;
+    border-radius: 20px;
+    padding: 7px;
+    outline: none;
+}
+
+#email{
+    box-sizing: border-box;
+    border:3px  black;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 5px;
+    background-color: lightgrey;
+    width: 350px;
+    height: 40px;
+}
+
+#enroll{
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    font-size:20px;
+    font-weight: 700;
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color: slategray;
+    color: white;
+}
+
+#enroll:hover{
+    box-shadow: 4px 4px black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+

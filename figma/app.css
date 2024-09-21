@@ -1,0 +1,427 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.nav {
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+}
+
+#logo {
+  height: 60px;
+}
+
+.request {
+  border-radius: 14px;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  cursor: pointer;
+  width: 231px;
+  height: 68px;
+  font-size: large;
+}
+
+.request:hover {
+  background-color: #000000;
+  color: #e6e6e6;
+  transition: all 0.6s;
+}
+
+.request:active {
+  background-color: #393939;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  font-size: large;
+  font-weight: 600;
+}
+
+.options {
+  display: flex;
+  width: 80%;
+  justify-content: flex-end;
+  gap: 40px;
+  margin-right: 40px;
+}
+
+.consult {
+  width: 264px;
+  height: 68px;
+  border-radius: 14px;
+  background-color: #000000;
+  color: #e6e6e6;
+  font-size: large;
+  font-family: "Space Grotesk", sans-serif;
+  cursor: pointer;
+}
+
+.consult:active {
+  background-color: #292929;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 1440;
+  height: 492px;
+}
+
+.leftHeader {
+  margin: 100px;
+  width: 600px;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+
+.rightHeader {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.corousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  filter: grayscale();
+  margin: 20px;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 50px;
+  font-size: 25px;
+  font-weight: 700;
+  align-items: center;
+}
+
+.lefttab,
+.righttab {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  width: 600px;
+  height: 310px;
+  border-radius: 45px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px;
+  box-shadow: 0px 4px;
+}
+
+#grey {
+  background-color: #e6e6e6;
+}
+
+#black {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+
+#neon {
+  background-color: #b9ff66;
+}
+
+.tabimg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 280px;
+  height: 170px;
+  justify-content: end;
+}
+
+.lmbtn {
+  display: flex;
+  border-radius: 100px;
+  width: 35px;
+  height: 35px;
+  border: none;
+  background-color: #000000;
+  align-items: center;
+  justify-content: center;
+}
+
+.lmbtn:hover {
+  cursor: pointer;
+}
+
+.lmform {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.freeseccontent {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+
+.freesec {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 450px;
+  background-color: #f3f3f3;
+  border-radius: 45px;
+  height: 320px;
+  width: fit-content;
+  margin: 0px 155px;
+  padding: 0px 60px;
+}
+
+.freesecbutton {
+  border-radius: 14px;
+  background-color: #000000;
+  color: white;
+  width: 238px;
+  height: 58px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 17px;
+}
+
+.workprog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: first center;
+  margin: 80px 150px;
+  gap: 15px;
+}
+
+.wpheading {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+  width: 100%;
+}
+
+.wptab {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  border-radius: 45px;
+  justify-items: center;
+  align-items: center;
+  width: 85%;
+  padding: 0px 60px;
+  gap: 20px;
+  background-color: #f3f3f3;
+  box-shadow: 0px 4px;
+}
+
+.wptabnum {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+mark {
+  background-color: #b9ff66;
+}
+
+.wptabbutton {
+  display: flex;
+  border-radius: 100px;
+  width: 35px;
+  height: 35px;
+  border: 1px solid black;
+  background-color: #f3f3f3;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 3px 2px;
+}
+
+.wpbtnwrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.wptabheading {
+  display: flex;
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .nav {
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #logo {
+    height: 10px;
+  }
+
+  .request {
+    padding: 0px;
+    width: 60px;
+    height: 25px;
+    font-size: x-small;
+  }
+
+  a {
+    font-size: smaller;
+    font-weight: 600;
+  }
+
+  .options {
+    width: 20%;
+    gap: 8px;
+    margin-right: 4px;
+  }
+
+  .header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .leftHeader {
+    margin: 0px;
+    width: 50%;
+    letter-spacing: 2px;
+    font-size: 10px;
+  }
+
+  .consult {
+    width: 100px;
+    height: 20px;
+    font-size: smaller;
+  }
+
+  .rightHeader {
+    width: 50%;
+  }
+
+  .two {
+    height: 50%;
+    width: 50%;
+  }
+
+  .corousel {
+    padding: 20px;
+    margin: 5px;
+    flex-flow: wrap;
+  }
+
+  .tabs {
+    flex-direction: column;
+  }
+
+  .lefttab,
+  .righttab {
+    width: 250px;
+    height: 158px;
+    justify-content: space-around;
+    margin: 10px;
+    font-size: xx-small;
+  }
+
+  .tabimg {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    height: 70px;
+    justify-content: end;
+  }
+
+  .lmbtn {
+    width: 35px;
+    height: 35px;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  .freesec {
+    gap: 40px;
+    height: 200px;
+    width: 250px;
+    margin: 0px 15px;
+    padding: 0px 20px;
+  }
+
+  .freesecbutton {
+    width: 108px;
+    height: 38px;
+    font-size: 8px;
+  }
+
+  .freeseccontent {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .freesecimg {
+    visibility: hidden;
+  }
+
+  .wpheading {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    width: 20%;
+  }
+
+  .wptab {
+    justify-items: flex-start;
+    align-items: center;
+    width: 80%;
+    padding: 0px 30px;
+    gap: 10px;
+  }
+}

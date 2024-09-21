@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="bggradient" id="blob" ></div>
+    
+    <div class="container">
+        <div class="left-section">
+            <h1>Transform Your Business</h1>
+            <ul>
+              <li>
+                Boost Productivity
+                <p>
+                  Our tools streamline your workflow, saving you time and resources.
+                </p>
+              </li>
+              <li>
+                Enhance Collaboration
+                <p>
+                  Foster teamwork with our state-of-the-art communication platforms.
+                </p>
+              </li>
+              <li>
+                Data-Driven Insights
+                <p>
+                  Make informed decisions with our advanced analytics capabilities.
+                </p>
+              </li>
+              <li>
+                Scalable Solutions
+                <p>
+                  Grow your business effortlessly with our flexible, scalable
+                  technologies.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="right-section">
+            <form id="demoForm">
+              <h2>Request Your Free Demo</h2>
+              <div class="form-group">
+                <label for="email">Email*</label>
+                <input type="email" id="email" name="email" required />
+                <span class="error-message"
+                  >Please enter a valid email address</span
+                >
+              </div>
+              <div class="form-group">
+                <label for="demoDate">Preferred Demo Date*</label>
+                <div class="date-inputs">
+                  <input
+                    type="text"
+                    id="day"
+                    name="day"
+                    placeholder="DD"
+                    required
+                  />
+                  <select id="month" name="month" required>
+                    <option value="">MM</option>
+                    <option value="01">Jan</option>
+                    <option value="02">Feb</option>
+                    <option value="03">Mar</option>
+                    <option value="04">Apr</option>
+                    <option value="05">May</option>
+                    <option value="06">Jun</option>
+                    <option value="07">Jul</option>
+                    <option value="08">Aug</option>
+                    <option value="09">Sep</option>
+                    <option value="10">Oct</option>
+                    <option value="11">Nov</option>
+                    <option value="12">Dec</option>
+                  </select>
+                  <select id="year" name="year" required>
+                    <option value="">YY</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                    <option value="2026">2026</option>
+                  </select>
+                </div>
+                <span class="error-message">Please enter a valid date</span>
+              </div>
+              <div class="form-group">
+                <label for="department">Your Department</label>
+                <select id="department" name="department" required>
+                  <option value="">Select your department</option>
+                  <option value="sales">Sales</option>
+                  <option value="marketing">Marketing</option>
+                  <option value="operations">Operations</option>
+                  <option value="it">IT</option>
+                  <option value="hr">Human Resources</option>
+                  <option value="finance">Finance</option>
+                  <option value="other">Other</option>
+                </select>
+                <span class="error-message">Please select a department</span>
+              </div>
+              <div class="form-group">
+                <label for="productDemo"
+                  >Which solution are you interested in?</label
+                >
+                <textarea
+                  id="productDemo"
+                  name="productDemo"
+                  rows="3"
+                  placeholder="Tell us more about your requirements..."
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <label>How did you discover us?</label>
+                <div class="radio-group">
+                  <input
+                    type="radio"
+                    id="socialMedia"
+                    name="hearAboutUs"
+                    value="socialMedia"
+                  />
+                  <label for="socialMedia">Social Media</label>
+                  <input
+                    class="radio-group"
+                    type="radio"
+                    id="googleAds"
+                    name="hearAboutUs"
+                    value="googleAds"
+                  />
+                  <label for="googleAds">Google Ads</label>
+                  <input
+                    type="radio"
+                    id="referral"
+                    name="hearAboutUs"
+                    value="referral"
+                  />
+                  <label for="referral">Referral</label>
+                </div>
+              </div>
+              <div class="submit">
+                <button type="submit" class="submit-btn">Request a Demo</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    </container>
+    </main>
+        <div class="bottom-section">
+          <h1 class="grdtext">Explore Our Success Stories</h1>
+          <div class="card-container">
+            <div class="card">
+              <p>See how we've helped businesses like yours achieve their goals.</p>
+              <h3>Client Testimonials</h3>
+            </div>
+            <div class="card">
+              <p>Dive deep into real-world examples of our solutions in action.</p>
+              <h3>Case Studies</h3>
+            </div>
+          </div>
+        </div>
+        <script src="app.js"></script>
+    </main>
+  </body>
+</html>
